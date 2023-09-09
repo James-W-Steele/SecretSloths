@@ -1,0 +1,30 @@
+x=0
+from ahk import AHK
+ahk = AHK()
+import time
+while x==0:
+    time.sleep(0.1)
+    if ahk.key_state("Enter"):
+        ahk.type('Message')
+        ahk.key_press('Tab')
+        ahk.type('peasant')
+        ahk.key_press('Tab')
+        ahk.key_press('Enter')
+        ahk.key_press('Enter')
+        ahk.key_press('Enter')
+        ahk.key_press('Tab')
+        ahk.key_press('Tab')
+        ahk.key_press('Tab')
+        ahk.key_press('Tab')
+        ahk.key_press('Tab')
+        ahk.type('Glasses')
+        ahk.key_press('Tab')
+        ahk.type('NoGlasses')
+        ahk.key_press('Tab')
+        ahk.type('Color')
+        ahk.key_press('Tab')
+        ahk.type('Green')
+        ahk.key_press('Tab')
+        ahk.type('Hat')
+        ahk.key_press('Tab')
+        ahk.type('NoHat')
